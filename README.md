@@ -1,4 +1,5 @@
 # horizon-detection
+Implementation of horizon detection of sample images. The image is rows and columns consisting of pixel values. Horizon detection using Bayes Net and Viterbi is explored. Started by genetaing the edge strength map which provides the gradient. Below listed are the two approaches
 
 ### Bayes Net:
 - In approach 1, on using Bayes Net to detect the ridge line we find maximum likelihood of a row based on the pixel intensity.
